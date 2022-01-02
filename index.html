@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>CSS Grid Layout</title>
+      <meta name="description" content="An one page website build with plain CSS">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Family -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <!--[if lt IE 7]>
+         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header class="header-navbar">
+         <div class="container">
+           <a class="navbar-logo" href="#">
+              <img src="https://via.placeholder.com/200x60/333333/?text=LOGO" alt="Your Website Logo">
+           </a>
+           <span id="nav-toggle"></span>
+           <nav class="navbar-navigation" id="navigation-wrapper">
+             <ul>
+               <li>
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li>
+                 <a class="nav-link" href="#">About Us</a>
+               </li>
+               <li>
+                  <a class="nav-link" href="#">Portfolio</a>
+               </li>
+               <li>
+                  <a class="nav-link" href="#">Blog</a>
+               </li>
+               <li>
+                  <a class="nav-link" href="#">Contact</a>
+               </li>
+             </ul>
+           </nav>
+         </div>
+       </header>
+
+       <section id="homepage-slider">
+          <div class="slider-wrapper">
+             <img src="https://via.placeholder.com/1920x1080/eeeeee/ddddddd/" alt="Slider One" class="slider-image">
+             <div class="slider-content text-dark">
+                <h1>Built with no CSS Framework</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <div class="slider-btn">
+                   <a href="#" class="btn">Take a look</a>
+                   <a href="#" class="btn btn-outline mx-md-2">Contact us</a>
+                  </div>
+             </div>
+          </div>
+          <div class="slider-wrapper">
+            <img src="https://via.placeholder.com/1920x1080/222222/333333/" alt="Slider One" class="slider-image">
+            <div class="slider-content">
+               <h1>Slick Slider</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               <div class="slider-btn">
+                  <a href="#" class="btn btn-light mx-md-2">Take a look</a>
+                  <a href="#" class="btn btn-outline-light mx-md-2">Contact us</a>
+                 </div>
+            </div>
+         </div>
+       </section>
+
+       <section id="about-us" class="container">
+            <div class="about-us-wrapper">
+               <h2 class="small-title">A nice title</h2>
+               <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+               <a href="#" class="btn btn-sm btn-outline-dark text-uppercase fw-bold px-5">Click me</a>
+            </div>
+            <div class="about-us-wrapper">
+               <img src="https://via.placeholder.com/800x500/ccccccc/9999999/" class="img-fluid" alt="">
+            </div>
+            <div class="about-us-wrapper">
+               <h2 class="small-title">A nice title</h2>
+               <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="about-us-wrapper">
+               <img src="https://via.placeholder.com/800x500/ccccccc/9999999/" class="img-fluid" alt="">
+            </div>
+            <div class="about-us-wrapper ">
+               <h2 class="small-title">A nice title</h2>
+               <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="about-us-wrapper">
+               <img src="https://via.placeholder.com/800x500/ccccccc/9999999/" class="img-fluid" alt="">
+            </div>
+            <div class="about-us-wrapper">
+               <h2 class="small-title">A nice title</h2>
+               <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+       </section>
+
+       <section id="homepage-portfolio">
+          <div class="container text-center">
+            <h2 class="section-title">Portfolio</h2>
+            <h3 class="section-subtitle">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</h3>
+         </div>
+
+         <div id="portfolio-slider">
+            <div class="portfolio-wrapper">
+               <img src="https://via.placeholder.com/1920x1080/eeeeeee/ccccccc/" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-wrapper">
+               <img src="https://via.placeholder.com/1920x1080/ccccccc/aaaaaaa/" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-wrapper">
+               <img src="https://via.placeholder.com/1920x1080/eeeeeee/ccccccc/" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-wrapper">
+               <img src="https://via.placeholder.com/1920x1080/ccccccc/aaaaaaa/" class="img-fluid" alt="">
+            </div>
+         </div>
+       </section>
+
+       
+         <section id="homepage-blog" class="container">
+            <div class="title-wrapper text-center">
+               <h2 class="section-title">Blog</h2>
+               <h3 class="section-subtitle">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</h3>
+            </div>
+
+            <div class="blog-wrapper">
+               <img src="https://via.placeholder.com/800x500/eeeeee/cccccc/"  class="img-fluid mb-3" alt="">
+               <h3 class="small-title">Blog Title</h3>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+               <a href="#" class="btn btn-outline-dark btn-sm text-uppercase fw-bold px-4">Read more</a>
+            </div>
+            <div class="blog-wrapper">
+               <img src="https://via.placeholder.com/800x500/eeeeee/cccccc/"  class="img-fluid mb-3" alt="">
+               <h3 class="small-title">Blog Title</h3>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+               <a href="#" class="btn btn-outline-dark btn-sm text-uppercase fw-bold px-4">Read more</a>
+            </div>
+            <div class="blog-wrapper">
+               <img src="https://via.placeholder.com/800x500/eeeeee/cccccc/"  class="img-fluid mb-3" alt="">
+               <h3 class="small-title">Blog Title</h3>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+               <a href="#" class="btn btn-outline-dark btn-sm text-uppercase fw-bold px-4">Read more</a>
+            </div>
+      </section>
+
+      <section id="homepage-cta">
+         <div class="container text-center">
+            <h2>Come work with us!</h2>
+            <a href="#" class="btn btn-outline-light me-2 text-uppercase fw-bold">E-mail Us</a>
+            <a href="#" class="btn btn-light ms-2 text-uppercase fw-bold">Call Us</a>
+         </div>
+      </section>
+
+      <footer>
+         <div class="container">
+            <div class="three-grid">
+               <div class="text-center">
+                  <img src="https://via.placeholder.com/200x60?text=LOGO" alt="Your Website Logo" loading="lazy">
+                  <p class="footer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, laboriosam? Fugit nulla, natus rem eius ducimus facere praesentium.</p>
+               </div>
+               <address class="nav">
+                  <a href="tel:">+55 00 000 000</a>
+                  <a href="mailto:">contact@email.com</a> 
+                  <span>Street Address 123, City - Country</span>
+               </address>
+               <div class="nav social-links text-center">
+                  <a href="#">Linkedin</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">Twitter</a>
+               </div>
+            </div>
+
+         <div class="text-center copyright">Copyright &copy; 2022</div>
+         </div>
+      </footer>
+
+      <script src="assets/js/jquery-3.6.0.min.js" ></script>
+      <script src="assets/js/slick.min.js" ></script>
+      <script src="assets/js/functions.js" ></script>
+   </body>
+</html>
