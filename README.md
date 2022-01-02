@@ -1,2 +1,3 @@
 # CSS Grid Layout
-Website built from scratch with plain CSS. You can access it on <a href="https://busattams.github.io/grid-site/" target="_blank">https://busattams.github.io/grid-site/</a>
+Website built from scratch with plain CSS. You can access it on https://busattams.github.io/grid-site/ <br><br>
+To see the same website made with Bootstrap, go to https://github.com/busattams/bootstrap-site
